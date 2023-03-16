@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="background">
+			<div class="border">
+				<div class="output">
+					<p class="display" id="display" data-display></p>
+					<p class="display2" id="display2" data-display2>0</p>
+				</div>
+				<div class="input">
+					<div class="container">
+						<button data-valor="0" class="botao horizontal zero" id="zero">
+							0
+						</button>
+						<button data-valor="1" class="botao normal um" id="um numero">
+							1
+						</button>
+						<button data-valor="2" class="botao normal dois" id="dois numero">
+							2
+						</button>
+						<button data-valor="3" class="botao normal tres" id="tres numero">
+							3
+						</button>
+						<button
+							data-valor="4"
+							class="botao normal quatro"
+							id="quatro numero"
+						>
+							4
+						</button>
+						<button data-valor="5" class="botao normal cinco" id="cinco numero">
+							5
+						</button>
+						<button data-valor="6" class="botao normal seis" id="seis numero">
+							6
+						</button>
+						<button data-valor="7" class="botao normal sete" id="sete numero">
+							7
+						</button>
+						<button data-valor="8" class="botao normal oito" id="oito numero">
+							8
+						</button>
+						<button data-valor="9" class="botao normal nove" id="nove numero">
+							9
+						</button>
+						<button data-valor="+" class="botao normal mais" id="mais">
+							+
+						</button>
+						<button data-valor="-" class="botao normal menos" id="menos">
+							-
+						</button>
+						<button data-valor="/" class="botao normal div" id="dividir">
+							/
+						</button>
+						<button data-valor="*" class="botao normal mult" id="multiplicar">
+							*
+						</button>
+						<button data-valor="." class="botao normal ponto" id="ponto">
+							.
+						</button>
+						<button data-valor="=" class="botao vertical igual" id="enter">
+							=
+						</button>
+						<button data-valor="c" class="botao horizontal clear" id="clear">
+							C
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>

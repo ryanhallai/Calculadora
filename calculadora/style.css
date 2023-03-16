@@ -1,0 +1,222 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(PO6cjaY.webp);
+	background-repeat: repeat;
+	background-size: contain;
+}
+
+.botao {
+	font-family: 'Tilt Neon', cursive;
+	background: rgb(82, 82, 82);
+	border: 1.5px none black;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 450;
+	color: rgb(231, 231, 231);
+}
+
+.border {
+	border: 2px solid none;
+	display: inline-flex;
+	padding: 24% 14%;
+	margin-top: 85px;
+	margin-left: 333px;
+	border-radius: 30px;
+	background: rgb(27, 28, 31);
+}
+
+.botao:hover {
+	background: rgba(70, 71, 73, 0.3);
+}
+
+.botao:active {
+	background: rgb(20, 20, 20);
+}
+
+/* Botoes */
+
+.clear {
+	grid-area: c;
+}
+
+.mais {
+	grid-area: mais;
+}
+
+.menos {
+	grid-area: menos;
+}
+
+.sete {
+	grid-area: sete;
+}
+
+.oito {
+	grid-area: oito;
+}
+
+.nove {
+	grid-area: nove;
+}
+
+.mult {
+	grid-area: mult;
+}
+
+.quatro {
+	grid-area: quatro;
+}
+
+.cinco {
+	grid-area: cinco;
+}
+
+.seis {
+	grid-area: seis;
+}
+
+.div {
+	grid-area: div;
+}
+
+.um {
+	grid-area: um;
+}
+
+.dois {
+	grid-area: dois;
+}
+
+.tres {
+	grid-area: tres;
+}
+
+.igual {
+	grid-area: igual;
+}
+
+.zero {
+	grid-area: zero;
+}
+
+.ponto {
+	grid-area: ponto;
+}
+
+/* Botoes */
+
+.container {
+	width: 20%;
+	height: 40%;
+	display: grid;
+	grid-template-areas:
+		'mais menos c c'
+		'sete oito nove mult'
+		'quatro cinco seis div'
+		'um dois tres igual'
+		'zero zero ponto igual';
+	grid-gap: 5px;
+	position: absolute;
+	top: 30%;
+	left: 37%;
+}
+
+.display {
+	position: absolute;
+	font-family: 'Tilt Neon', cursive;
+	background: none;
+	border: 3px solid white;
+	justify-content: left;
+	border-radius: 10px;
+	padding: 24px 101px;
+	left: 37%;
+	top: 14%;
+	font-size: 30px;
+	font-weight: 450;
+	color: lightgrey;
+	box-sizing: border-box;
+}
+
+.display2 {
+	position: absolute;
+	font-family: 'Tilt Neon', cursive;
+	background: none;
+	font-size: 30px;
+	font-weight: 450;
+	color: lightgrey;
+	left: 39%;
+	top: 15.3%;
+}
+
+@media screen and (min-width: 1239px) {
+	.border {
+		padding: 25.6% 14%;
+		margin-top: 110px;
+		margin-left: 415px;
+	}
+
+	.display {
+		padding: 30px 126px;
+		left: 37%;
+		top: 14%;
+	}
+	.display2 {
+		top: 16%;
+	}
+}
+
+@media screen and (min-width: 1325px) {
+	.border {
+		padding: 17% 14%;
+		margin-top: 110px;
+		margin-left: 444px;
+	}
+
+	.display {
+		padding: 30px 135px;
+		left: 37%;
+		top: 14%;
+	}
+	.display2 {
+		top: 16%;
+	}
+}
+
+@media screen and (min-width: 1559px) {
+	.border {
+		padding: 17% 14%;
+		margin-top: 115px;
+		margin-left: 518px;
+	}
+
+	.display {
+		padding: 40px 156.5px;
+		left: 37%;
+		top: 14%;
+	}
+	.display2 {
+		top: 16.5%;
+	}
+}
+
+@media screen and (min-width: 1879px) {
+	.border {
+		padding: 18% 14%;
+		margin-top: 115px;
+		margin-left: 623px;
+	}
+
+	.display {
+		padding: 45px 188px;
+		left: 37%;
+		top: 14%;
+	}
+	.display2 {
+		top: 16.5%;
+	}
+}
